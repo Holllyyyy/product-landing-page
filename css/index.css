@@ -1,0 +1,211 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'sans-serif, Franklin Gothic Medium', 'Arial Narrow', Arial, ;
+ 
+} /*this is always needed to be put when writing any html*/
+
+body{
+    width: 100%;
+    min-height: 100vh;
+} /*this also is fundamental for any website*/
+
+header{
+    position: sticky;
+    top:0;
+    z-index: 999;
+    width: 100%;
+    background-color: rgb(182, 233, 182) ;
+    color: black; /*here I put postion sticky cause its much better fit then fixed one, where I used top to be always on top , z-indexx to make it 
+    on top always, width of 100% to be from right-left*/
+}
+
+#header-img{
+   display: flex;
+   height:100px;
+   
+   
+   
+    /*margin: 0 auto;
+    display:block;
+    height:150px;
+    /* width:150px;  */
+}/*about pic in header, right now this pic is on middle, with it , use of rule for pic where always have to be display block n centered by margin n some height n width cause its logo
+later will chabge with grid, and make it be together in one line*/
+
+#nav-bar{
+    width: 100%;
+    background-color: rgb(54, 189, 121);
+    height: 100px;
+    display: flex;
+    align-items: center; 
+} /* this is nav bar with all of his linkks inside, where i wanna be width 100% so cover all horizontally and height of 100 px, display flex giving
+them to be in one line, n align item to center so they are centered*/
+#nav-bar>ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;  
+    align-items: center;
+    list-style-type: none;
+}/* this is nav bar alike a parent and ul like his child, we are going in all what is inside nav bar, his child what is ul , where we have few lists
+we have to make flex so we will get all in line and space around between their lists-links , use of list style none is to remove lists from nav bar
+n give horizontally , not verticall*/
+
+
+.nav-link {
+    text-decoration: none;
+    color:#ffffff;
+    text-transform: uppercase;
+    font-weight: 4em;
+ 
+}/* nav link is actually links who we wants to style there are just few settings*/
+
+#home{
+    display: flex;
+    width:100%;
+    flex-direction: column;
+} /*home is first section, n we wanna gie it flex n width of 100 n direction column how we can put pictures here*/
+.homepage{
+    display:flex;
+    width: 100%;
+    justify-content: space-between;
+    text-align: center;
+}/*this is child of home, who consists of 2 figure tags, n inside it img, n here is one more child h2*/
+.figcontainer{
+    width:50%;
+    display: flex;
+}/*is child of homepage, figure, but also parent of img, we wanna put width of 50% cause we have two img inside so they will take 50% of parent*/
+.pic1{
+    display: block;
+    max-width: 100%;
+    height: 400px;
+    margin: auto;
+   
+}/* we giving every picture display block with max width of 100 how we will be sure that picture wont go out of his parent, margin auto to make them cetered n height of 400px*/
+
+#aboutus{
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.wrapper{
+    display: flex;
+    width: 100%;
+    justify-content:space-evenly;
+    text-align: center;
+  
+
+}
+.container {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    
+}/*taking 30% of his parent, cause there is three img around*/
+.figurepic{
+    display: block;
+    max-width:100%;
+    margin-bottom: 7px;
+    height: 300px;
+}/*same rule as earlier , margin used just for making space n text separeted*/
+
+h2{
+    text-align: center;
+    margin-bottom: 1%;
+    background-color: rgb(54, 189, 121);
+    color:#ffffff;
+}
+
+.figcaption{
+    text-align: center;
+}
+.caption{
+    text-align:center;
+    text-align: justify;
+    text-justify: auto;
+}
+
+
+#menu{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.menu-wrapper{
+    display: flex;
+    width: 100%;
+    justify-content:space-evenly;
+    text-align: center;
+}
+
+.menu-container{   
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+#menu-pic{
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+    
+}
+i{
+    margin-top: 10%;
+    text-align: left;
+    flex-direction: column;
+    
+}
+
+.describe{
+  padding-left:20px;
+  margin-top: -4%;
+  
+}
+
+.form{
+    width: 15%;
+   
+}
+label{
+    color: black;
+}
+#email{
+    width:100%;
+    padding:10px;
+    background-color: #ffffff;
+    border: 2px solid rgb(32, 212, 32);
+    border-radius: 5px;
+}
+#submit{
+    background-color: rgb(123, 228, 123);
+    padding:8px;
+    color:#000000;
+    text-transform: uppercase;
+    border: 2px solid rgb(123, 228, 123);
+    border-radius: 5px;
+    width:50%;
+   
+}
+.video{
+    display: flex;
+    justify-content: center;
+}
+@media screen {
+    
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    body{
+        background-color: rgb(178, 185, 170);
+    }
+   
+}
