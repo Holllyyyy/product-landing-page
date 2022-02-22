@@ -166,7 +166,7 @@ and be horizontal*/
 
 - Semantic HTML5 markup
 - CSS custom properties
-  -CSS Flexbox
+- CSS Flexbox
 
 ### What I learned
 
