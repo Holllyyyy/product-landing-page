@@ -172,11 +172,11 @@ and be horizontal*/
 
 While working on this project I learned :
 - how to make nav bar using lists and flexbox
--how to set nav bar to be fixed on top of the viewport
--to connect nav bar with all section when its being clicked
--to change color on smaller screens
--how to put 3 images in one line , 2 images.
--how to use icons from font awesome website
+- how to set nav bar to be fixed on top of the viewport
+- to connect nav bar with all section when its being clicked
+- to change color on smaller screens
+- how to put 3 images in one line , 2 images.
+- how to use icons from font awesome website
 
 
 ### Continued development
